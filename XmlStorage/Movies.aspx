@@ -23,9 +23,17 @@
     </div>
 	<div class="section section-about-us">
         <div class="container">
+			<div class="button-container">
+				<asp:HyperLink ID="HyperLinkHome" 
+                            CssClass="btn btn-primary btn-round btn-lg" 
+                            runat="server" 
+                            NavigateUrl="~/AddMovie.aspx"> Add a movie </asp:HyperLink>
+            </div>
+
+			<h3 class="title">Movie List</h3>
             <div class="row">
                 <div class="col-md-12">
-                    
+					
 				</div>
 			</div>
 		</div>

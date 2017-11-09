@@ -14,5 +14,7 @@ namespace XmlStorage {
 	public partial class Movies {
 		
 		protected System.Web.UI.WebControls.Content Content1;
+		
+		protected System.Web.UI.WebControls.HyperLink HyperLinkHome;
 	}
 }

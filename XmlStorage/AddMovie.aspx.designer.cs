@@ -11,12 +11,12 @@
 namespace XmlStorage {
 	
 	
-	public partial class MasterPage {
+	public partial class AddMovie {
 		
-		protected System.Web.UI.WebControls.HyperLink HyperLinkMovies;
+		protected System.Web.UI.WebControls.Content Content1;
 		
-		protected System.Web.UI.WebControls.HyperLink HyperLinkAddMovie;
+		protected System.Web.UI.HtmlControls.HtmlForm form1;
 		
-		protected System.Web.UI.WebControls.ContentPlaceHolder contentPlaceHolder;
+		protected System.Web.UI.WebControls.Button BAddMovie;
 	}
 }

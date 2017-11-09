@@ -177,6 +177,8 @@
     <Content Include="Scripts\plugins\nouislider.min.js" />
     <Content Include="MasterPage.master" />
     <Content Include="Movies.aspx" />
+    <Content Include="posters\1.jpg" />
+    <Content Include="AddMovie.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MasterPage.master.cs">
@@ -191,12 +193,22 @@
     <Compile Include="Movies.aspx.designer.cs">
       <DependentUpon>Movies.aspx</DependentUpon>
     </Compile>
+    <Compile Include="AddMovie.aspx.cs">
+      <DependentUpon>AddMovie.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddMovie.aspx.designer.cs">
+      <DependentUpon>AddMovie.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="Content\.DS_Store" />
     <None Include="fonts\.DS_Store" />
     <None Include="fonts\nucleo-outline.woff2" />
     <None Include="Scripts\.DS_Store" />
+    <None Include="Movies.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="posters\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ProjectExtensions>
