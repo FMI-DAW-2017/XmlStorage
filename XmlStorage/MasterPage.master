@@ -25,6 +25,7 @@
                             CssClass="dropdown-item" 
                             runat="server" 
                             NavigateUrl="~/Movies.aspx"> Movies </asp:HyperLink>
+					</div>
                 </div>
                 <div class="navbar-translate">
                     <a class="navbar-brand" href="#" >
