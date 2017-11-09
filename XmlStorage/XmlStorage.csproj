@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6FB30B2A-C6D4-41C3-B362-EACE713E7297}</ProjectGuid>
+    <ProjectTypeGuids>{349C5851-65DF-11DA-9384-00065B846F21};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>XmlStorage</RootNamespace>
+    <AssemblyName>XmlStorage</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <Optimize>true</Optimize>
+    <OutputPath>bin</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Web.Services" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Web.config" />
+    <Content Include="img\apple-icon.png" />
+    <Content Include="img\avatar.jpg" />
+    <Content Include="img\bg1.jpg" />
+    <Content Include="img\bg11.jpg" />
+    <Content Include="img\bg3.jpg" />
+    <Content Include="img\bg4.jpg" />
+    <Content Include="img\bg5.jpg" />
+    <Content Include="img\bg6.jpg" />
+    <Content Include="img\bg7.jpg" />
+    <Content Include="img\bg8.jpg" />
+    <Content Include="img\blurred-image-1.jpg" />
+    <Content Include="img\creative-tim-white-slim2.png" />
+    <Content Include="img\default-avatar.png" />
+    <Content Include="img\eva.jpg" />
+    <Content Include="img\favicon.png" />
+    <Content Include="img\header.jpg" />
+    <Content Include="img\hero-image-1.png" />
+    <Content Include="img\hero-image-2.png" />
+    <Content Include="img\hero-image-3.png" />
+    <Content Include="img\invision-white-slim.png" />
+    <Content Include="img\landing.jpg" />
+    <Content Include="img\login.jpg" />
+    <Content Include="img\logo-square.jpg" />
+    <Content Include="img\logo.png" />
+    <Content Include="img\now-logo.png" />
+    <Content Include="img\nucleo-logo.svg" />
+    <Content Include="img\profile.jpg" />
+    <Content Include="img\ryan.jpg" />
+    <Content Include="img\flags\AD.png" />
+    <Content Include="img\flags\AE.png" />
+    <Content Include="img\flags\AG.png" />
+    <Content Include="img\flags\AM.png" />
+    <Content Include="img\flags\AR.png" />
+    <Content Include="img\flags\AT.png" />
+    <Content Include="img\flags\AU.png" />
+    <Content Include="img\flags\BE.png" />
+    <Content Include="img\flags\BF.png" />
+    <Content Include="img\flags\BG.png" />
+    <Content Include="img\flags\BO.png" />
+    <Content Include="img\flags\BR.png" />
+    <Content Include="img\flags\CA.png" />
+    <Content Include="img\flags\CD.png" />
+    <Content Include="img\flags\CG.png" />
+    <Content Include="img\flags\CH.png" />
+    <Content Include="img\flags\CL.png" />
+    <Content Include="img\flags\CM.png" />
+    <Content Include="img\flags\CN.png" />
+    <Content Include="img\flags\CO.png" />
+    <Content Include="img\flags\CZ.png" />
+    <Content Include="img\flags\DE.png" />
+    <Content Include="img\flags\DJ.png" />
+    <Content Include="img\flags\DK.png" />
+    <Content Include="img\flags\DZ.png" />
+    <Content Include="img\flags\EE.png" />
+    <Content Include="img\flags\EG.png" />
+    <Content Include="img\flags\ES.png" />
+    <Content Include="img\flags\FI.png" />
+    <Content Include="img\flags\FR.png" />
+    <Content Include="img\flags\GA.png" />
+    <Content Include="img\flags\GB.png" />
+    <Content Include="img\flags\GM.png" />
+    <Content Include="img\flags\GT.png" />
+    <Content Include="img\flags\HN.png" />
+    <Content Include="img\flags\HT.png" />
+    <Content Include="img\flags\HU.png" />
+    <Content Include="img\flags\ID.png" />
+    <Content Include="img\flags\IE.png" />
+    <Content Include="img\flags\IL.png" />
+    <Content Include="img\flags\IN.png" />
+    <Content Include="img\flags\IQ.png" />
+    <Content Include="img\flags\IR.png" />
+    <Content Include="img\flags\IT.png" />
+    <Content Include="img\flags\JM.png" />
+    <Content Include="img\flags\JO.png" />
+    <Content Include="img\flags\JP.png" />
+    <Content Include="img\flags\KG.png" />
+    <Content Include="img\flags\KN.png" />
+    <Content Include="img\flags\KP.png" />
+    <Content Include="img\flags\KR.png" />
+    <Content Include="img\flags\KW.png" />
+    <Content Include="img\flags\KZ.png" />
+    <Content Include="img\flags\LA.png" />
+    <Content Include="img\flags\LB.png" />
+    <Content Include="img\flags\LC.png" />
+    <Content Include="img\flags\LS.png" />
+    <Content Include="img\flags\LU.png" />
+    <Content Include="img\flags\LV.png" />
+    <Content Include="img\flags\MG.png" />
+    <Content Include="img\flags\MK.png" />
+    <Content Include="img\flags\ML.png" />
+    <Content Include="img\flags\MM.png" />
+    <Content Include="img\flags\MT.png" />
+    <Content Include="img\flags\MX.png" />
+    <Content Include="img\flags\NA.png" />
+    <Content Include="img\flags\NE.png" />
+    <Content Include="img\flags\NG.png" />
+    <Content Include="img\flags\NI.png" />
+    <Content Include="img\flags\NL.png" />
+    <Content Include="img\flags\NO.png" />
+    <Content Include="img\flags\OM.png" />
+    <Content Include="img\flags\PA.png" />
+    <Content Include="img\flags\PE.png" />
+    <Content Include="img\flags\PG.png" />
+    <Content Include="img\flags\PK.png" />
+    <Content Include="img\flags\PL.png" />
+    <Content Include="img\flags\PT.png" />
+    <Content Include="img\flags\PY.png" />
+    <Content Include="img\flags\QA.png" />
+    <Content Include="img\flags\RO.png" />
+    <Content Include="img\flags\RU.png" />
+    <Content Include="img\flags\RW.png" />
+    <Content Include="img\flags\SA.png" />
+    <Content Include="img\flags\SE.png" />
+    <Content Include="img\flags\SG.png" />
+    <Content Include="img\flags\SL.png" />
+    <Content Include="img\flags\SN.png" />
+    <Content Include="img\flags\SO.png" />
+    <Content Include="img\flags\SV.png" />
+    <Content Include="img\flags\TD.png" />
+    <Content Include="img\flags\TJ.png" />
+    <Content Include="img\flags\TL.png" />
+    <Content Include="img\flags\TR.png" />
+    <Content Include="img\flags\TZ.png" />
+    <Content Include="img\flags\UA.png" />
+    <Content Include="img\flags\US.png" />
+    <Content Include="img\flags\VE.png" />
+    <Content Include="img\flags\VN.png" />
+    <Content Include="img\flags\YE.png" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\demo.css" />
+    <Content Include="Content\now-ui-kit.css" />
+    <Content Include="fonts\nucleo-outline.eot" />
+    <Content Include="fonts\nucleo-outline.ttf" />
+    <Content Include="fonts\nucleo-outline.woff" />
+    <Content Include="Scripts\now-ui-kit.js" />
+    <Content Include="Scripts\core\bootstrap.min.js" />
+    <Content Include="Scripts\core\jquery.3.2.1.min.js" />
+    <Content Include="Scripts\core\popper.min.js" />
+    <Content Include="Scripts\plugins\bootstrap-datepicker.js" />
+    <Content Include="Scripts\plugins\bootstrap-switch.js" />
+    <Content Include="Scripts\plugins\jquery.sharrre.js" />
+    <Content Include="Scripts\plugins\nouislider.min.js" />
+    <Content Include="MasterPage.master" />
+    <Content Include="Movies.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MasterPage.master.cs">
+      <DependentUpon>MasterPage.master</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPage.master.designer.cs">
+      <DependentUpon>MasterPage.master</DependentUpon>
+    </Compile>
+    <Compile Include="Movies.aspx.cs">
+      <DependentUpon>Movies.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Movies.aspx.designer.cs">
+      <DependentUpon>Movies.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Content\.DS_Store" />
+    <None Include="fonts\.DS_Store" />
+    <None Include="fonts\nucleo-outline.woff2" />
+    <None Include="Scripts\.DS_Store" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ProjectExtensions>
+    <MonoDevelop>
+      <Properties>
+        <XspParameters Port="8080" Address="127.0.0.1" SslMode="None" SslProtocol="Default" KeyType="None" CertFile="" KeyFile="" PasswordOptions="None" Password="" Verbose="True" />
+      </Properties>
+    </MonoDevelop>
+  </ProjectExtensions>
+</Project>
