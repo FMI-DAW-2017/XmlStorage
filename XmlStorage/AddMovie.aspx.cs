@@ -9,10 +9,9 @@ namespace XmlStorage
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (!Page.IsPostBack)
-            {
-                DDLYear.DataBind();
-            }
+            
+            DDLYear.DataBind();
+
         }
 
         public string[] Last100Years {
