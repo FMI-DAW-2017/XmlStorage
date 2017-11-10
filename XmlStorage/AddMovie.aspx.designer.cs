@@ -17,6 +17,32 @@ namespace XmlStorage {
 		
 		protected System.Web.UI.HtmlControls.HtmlForm form1;
 		
+		protected System.Web.UI.WebControls.ValidationSummary ValidationSummary1;
+		
+		protected System.Web.UI.WebControls.TextBox TitleTB;
+		
+		protected System.Web.UI.WebControls.RequiredFieldValidator RequiredText;
+		
+		protected System.Web.UI.WebControls.DropDownList DDLYear;
+		
+		protected System.Web.UI.WebControls.TextBox DurationTB;
+		
+		protected System.Web.UI.WebControls.RequiredFieldValidator RequiredDuration;
+		
+		protected System.Web.UI.WebControls.RangeValidator RangeDuration;
+		
+		protected System.Web.UI.WebControls.TextBox GenreTB;
+		
+		protected System.Web.UI.WebControls.TextBox DirectorTB;
+		
+		protected System.Web.UI.WebControls.TextBox Actor1TB;
+		
+		protected System.Web.UI.WebControls.TextBox Actor2TB;
+		
+		protected System.Web.UI.WebControls.FileUpload PosterFU;
+		
+		protected System.Web.UI.WebControls.RequiredFieldValidator RequiredPoster;
+		
 		protected System.Web.UI.WebControls.Button BAddMovie;
 	}
 }
