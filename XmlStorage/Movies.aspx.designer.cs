@@ -16,5 +16,11 @@ namespace XmlStorage {
 		protected System.Web.UI.WebControls.Content Content1;
 		
 		protected System.Web.UI.WebControls.HyperLink HyperLinkHome;
+		
+		protected System.Web.UI.WebControls.XmlDataSource MovieList;
+		
+		protected System.Web.UI.WebControls.Repeater MovieRepeater;
+		
+		protected System.Web.UI.WebControls.Repeater ActorsRepeater;
 	}
 }
