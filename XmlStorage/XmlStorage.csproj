@@ -179,6 +179,7 @@
     <Content Include="Movies.aspx" />
     <Content Include="posters\1.jpg" />
     <Content Include="AddMovie.aspx" />
+    <Content Include="DeleteMovie.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MasterPage.master.cs">
@@ -198,6 +199,12 @@
     </Compile>
     <Compile Include="AddMovie.aspx.designer.cs">
       <DependentUpon>AddMovie.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteMovie.aspx.cs">
+      <DependentUpon>DeleteMovie.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteMovie.aspx.designer.cs">
+      <DependentUpon>DeleteMovie.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

@@ -11,18 +11,18 @@
 namespace XmlStorage {
 	
 	
-	public partial class Movies {
+	public partial class DeleteMovie {
 		
 		protected System.Web.UI.WebControls.Content Content1;
 		
-		protected System.Web.UI.WebControls.HyperLink HyperLinkHome;
+		protected System.Web.UI.HtmlControls.HtmlForm form1;
 		
-		protected System.Web.UI.WebControls.XmlDataSource MovieList;
+		protected System.Web.UI.WebControls.Literal TitleL;
 		
-		protected System.Web.UI.WebControls.Repeater MovieRepeater;
+		protected System.Web.UI.WebControls.Literal YearL;
 		
-		protected System.Web.UI.WebControls.Repeater ActorsRepeater;
+		protected System.Web.UI.WebControls.Button BDelete;
 		
-		protected System.Web.UI.WebControls.HyperLink HyperLink2;
+		protected System.Web.UI.WebControls.Button BCancel;
 	}
 }

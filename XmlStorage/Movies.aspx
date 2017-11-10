@@ -48,7 +48,8 @@
                             <th scope="col">Director</th>
 							<th scope="col">Genre</th>
 							<th scope="col">Duration</th>
-							<th scope="col">Actors</th>
+                            <th scope="col">Actors</th>
+							<th scope="col">Actions</th>
 						</thead>
 						<tbody>
                             <asp:Repeater id="MovieRepeater" runat="server" DataSourceID="MovieList">
@@ -69,6 +70,9 @@
 								                <SeparatorTemplate>, </SeparatorTemplate>
 											</asp:Repeater>
 										</td>
+										<td>           <asp:HyperLink ID="HyperLink2" NavigateUrl='<%# "~/DeleteMovie.aspx?id=" + XPath("@ID") %>' runat="server">Delete</asp:HyperLink>
+
+                                                </td>
 									</tr>
 								</ItemTemplate>
 							</asp:Repeater>
