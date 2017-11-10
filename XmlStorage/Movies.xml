@@ -1,9 +1,14 @@
-﻿<?xml version="1.0" encoding="UTF-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <moviestore>
   <movie genre="SF" year="2017" duration="180" ID="1">
     <title>Star Wars: The Last Jedi</title>
     <director>Rian Johnson</director>
     <actor>Daisy Ridley</actor>
     <actor>Mark Hamill</actor>
+  </movie>
+  <movie genre="Action" year="2017" duration="180" ID="2">
+    <title>Thor</title>
+    <director>Taika Waititi</director>
+    <actor>Chris Hemsworth</actor>
   </movie>
 </moviestore>

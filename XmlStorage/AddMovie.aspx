@@ -26,6 +26,7 @@
             <div class="container">
                 <h2 class="title">Add a movie</h2>
 
+				<asp:Literal id="FormResponse" runat="server"></asp:Literal>
 				<asp:ValidationSummary ID="ValidationSummary1" runat="server" />
 				
                 <div class="row">
@@ -105,7 +106,7 @@
                                 ControlToValidate="PosterFU"
                                 ErrorMessage="Poster is required"></asp:RequiredFieldValidator>
                         <div class="send-button">
-							<asp:Button ID="BAddMovie" runat="server" Text="Add" CssClass="btn btn-primary btn-round btn-block btn-lg" />
+							<asp:Button ID="BAddMovie" OnClick="AddMovie_Click" runat="server" Text="Add" CssClass="btn btn-primary btn-round btn-block btn-lg" />
                         </div>
                     </div>
                 </div>

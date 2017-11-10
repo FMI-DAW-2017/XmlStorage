@@ -17,6 +17,8 @@ namespace XmlStorage {
 		
 		protected System.Web.UI.HtmlControls.HtmlForm form1;
 		
+		protected System.Web.UI.WebControls.Literal FormResponse;
+		
 		protected System.Web.UI.WebControls.ValidationSummary ValidationSummary1;
 		
 		protected System.Web.UI.WebControls.TextBox TitleTB;
