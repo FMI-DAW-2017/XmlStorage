@@ -15,11 +15,11 @@ namespace XmlStorage {
 		
 		protected System.Web.UI.WebControls.Content Content1;
 		
-		protected System.Web.UI.HtmlControls.HtmlForm form1;
-		
 		protected System.Web.UI.WebControls.Literal TitleL;
 		
 		protected System.Web.UI.WebControls.Literal YearL;
+		
+		protected System.Web.UI.HtmlControls.HtmlForm form1;
 		
 		protected System.Web.UI.WebControls.Button BDelete;
 		
